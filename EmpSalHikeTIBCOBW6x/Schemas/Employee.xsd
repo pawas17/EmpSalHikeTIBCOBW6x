@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Employee" xmlns:tns="http://www.example.org/Employee" elementFormDefault="qualified">
+
+    <element name="Hike" type="int"></element>
+
+    <element name="ThresholdSalLimit" type="int"></element>
+
+    <complexType name="EmpSalType">
+    	<sequence>
+    		<element ref="tns:ThresholdSalLimit"></element>
+    		<element ref="tns:Hike"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="EmpSal" type="tns:EmpSalType"></element>
+</schema>
