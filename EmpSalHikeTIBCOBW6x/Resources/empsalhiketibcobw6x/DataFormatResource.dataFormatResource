@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Employee="http://www.example.org/Employee" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_PJIMkfM3Ee-pboPKDZriGQ" name="empsalhiketibcobw6x.DataFormatResource" type="dataformat:DataFormat">
+  <imports xmi:id="_671-cPM3Ee-pboPKDZriGQ" importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.example.org/Employee"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_PJRWgPM3Ee-pboPKDZriGQ" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="New Line" fillCharacter="Space" schemaElementQName="Employee:EmpSal" fieldOffsetsStr="ThresholdSalLimit(0,0)&#xA;Hike(0,0)">
+    <fieldOffsets xmi:id="_2EONoPxKEe-2arxjSQsofg" name="ThresholdSalLimit"/>
+    <fieldOffsets xmi:id="_2EONofxKEe-2arxjSQsofg" name="Hike"/>
+  </jndi:configuration>
+</jndi:namedResource>
